@@ -264,6 +264,8 @@ fieldset {
 #contato {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
     padding: 2vh 0px;
     align-items: center;
 }
