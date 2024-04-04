@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digh Foods</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div id="logo"><img src="/assets/Logo.png" alt="Logo do site"></div>
+            <br>
+            <hr>
+            <ul id="header-links">
+
+                <li><a href="#" aria-label="Inicio">Home</a></li>
+
+
+                <li><a href="#address" aria-label="Contato">Contato</a></li>
+
+
+                <li><a href="#Sobre" aria-label="Sobre">Sobre</a></li>
+
+
+                <li><a href="#products" aria-label="Produtos">Produtos</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="main-content">
+            <h1>Digh Foods - O Sabor que Marca Momentos</h1>
+            <p>Venha você e sua familia, conhecer nosso cardápio e descobrir a mais nova explosão de sabores do
+                Brasil!!Estamos abertos das 5:00 ás 22:00. Das cidades mais industrializadas às menos industrializadas.
+                trazendo
+                para o mundo novas perspectivas cada vez mais saborosas sobre a vida.
+                <a href="#BuyProduct" tabindex="-1" id="comprarproduto"><button>
+                        Clique aqui para fazer seu pedido
+                    </button></a>
+
+        </section>
+
+    </main>
+
+    <section id="Sobre" tabindex="0">
+        <h2>Sobre nós</h2>
+        <p><span>Digh Foods</span> é uma marca apaixonada por comidas gourmets que traz uma experiência
+        única em cada
+        mordida. Fundada com a missão de oferecer aos seus clientes não apenas uma refeição, mas uma verdadeira
+        aventura gastronômica, <span>Digh Foods</span> combina ingredientes frescos e de alta qualidade com
+        técnicas de preparo cuidadosamente selecionadas para criar delicias irresistíveis e cheios de sabor.
+        Desde o primeiro bite, cada prato leva você a uma jornada de sabores autênticos e texturas que deixam
+        um gostinho de quero mais. Na <span>Digh Foods</span>, não apenas servimos apenas refeições, mas criamos
+        momentos memoráveis para os amantes da boa comida.</p>
+    </section>
+    <hr>
+
+    <section id="BuyProduct">
+        <h2>Compre seu produto aqui</h2>
+        <form action="" aria-labelledby="comprarproduto">
+            <fieldset>
+                <label for="product-address">Endereço:</label>
+                <input class="product-item" id="product-address" name="product-address" placeholder="Nome da rua e número" required maxlength="83">
+            </fieldset>
+            <fieldset>
+                <label for="Product-name">Produto:</label>
+                <select class="product-item" id="Product-name" required name="product">
+                    <option value="opcao1" hidden>Escolha um prato</option>
+                    <option value="opcao1">TÊTE À TÊTE</option>
+                    <option value="opcao2">ICI BISTRÔ</option>
+                    <option value="opcao3">LA GUAPA</option>
+                    <option value="opcao3">ESQUINA MOCOTÓ</option>
+                </select>
+                <br>
+                <label for="Pagamento">Pagamento:</label>
+                <select class="product-item" id="Pagamento" required name="payment">
+                    <option value="opcao1" hidden>Forma de pagamento</option>
+                    <option value="opcao1">PIX</option>
+                    <option value="opcao2">Cartão Crédito</option>
+                    <option value="opcao3">Cartão Débito</option>
+                </select>
+            </fieldset>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </section>
+    <hr>
+
+    <section id="products">
+        <h2>Produtos e suas Receitas</h2>
+
+        <article class="produtos">
+            <div class="leftsection" tabindex="0">
+                <img src="/assets/produtos/receita1.jpg" alt="produto 1">
+
+                <img src="/assets/Separador direita.png" alt="" class="product-decoration">
+            </div>
+            <div class="rightsection" tabindex="0">
+                <img src="/assets/Separador esquerda.png" alt="" class="product-decoration">
+                <h2>TÊTE À TÊTE</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis possimus recusandae praesentium eius
+                    odit commodi sapiente atque corrupti esse, porro eveniet fugit itaque dicta illum tenetur tempore
+                    nostrum quis laborum!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sequi culpa assumenda nam adipisci
+                    perspiciatis deleniti similique ex soluta quod, accusantium aperiam laudantium quos, necessitatibus
+                    illo itaque labore dignissimos harum!</p>
+            </div>
+        </article>
+
+        <hr>
+
+        <article class="produtos2">
+
+            <div class="leftsection2" tabindex="0">
+                <img src="/assets/Separador direita.png" alt="" class="product-decoration">
+                <h2>ICI BISTRÔ</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis possimus recusandae praesentium eius
+                    odit
+                    commodi sapiente atque corrupti esse, porro eveniet fugit itaque dicta illum tenetur tempore nostrum
+                    quis laborum!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sequi culpa assumenda nam adipisci
+                    perspiciatis deleniti similique ex soluta quod, accusantium aperiam laudantium quos, necessitatibus
+                    illo
+                    itaque labore dignissimos harum!</p>
+            </div>
+            <div class="rightsection2" tabindex="0">
+                <img src="/assets/produtos/receita2.jpg" alt="produto 2">
+
+                <img src="/assets/Separador esquerda.png" alt="" class="product-decoration">
+            </div>
+        </article>
+
+        <article class="produtos3">
+            <div class="leftsection" tabindex="0">
+                <img src="/assets/produtos/receita2.jpg" alt="produto 1">
+
+                <img src="/assets/Separador direita.png" alt="" class="product-decoration">
+            </div>
+            <div class="rightsection" tabindex="0">
+                <img src="/assets/Separador esquerda.png" alt="" class="product-decoration">
+                <h2>TÊTE À TÊTE</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis possimus recusandae praesentium eius
+                    odit commodi sapiente atque corrupti esse, porro eveniet fugit itaque dicta illum tenetur tempore
+                    nostrum quis laborum!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sequi culpa assumenda nam adipisci
+                    perspiciatis deleniti similique ex soluta quod, accusantium aperiam laudantium quos, necessitatibus
+                    illo itaque labore dignissimos harum!</p>
+            </div>
+        </article>
+
+        <hr>
+
+        <article class="produtos">
+            <div class="leftsection" tabindex="0">
+                <img src="/assets/produtos/receita3.jpg" alt="produto 3">
+
+                <img src="/assets/Separador direita.png" alt="" class="product-decoration">
+            </div>
+            <div class="rightsection" tabindex="0">
+                <img src="/assets/Separador esquerda.png" alt="" class="product-decoration">
+                <h2>LA GUAPA</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis possimus recusandae praesentium eius
+                    odit commodi sapiente atque corrupti esse, porro eveniet fugit itaque dicta illum tenetur tempore
+                    nostrum quis laborum!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sequi culpa assumenda nam adipisci
+                    perspiciatis deleniti similique ex soluta quod, accusantium aperiam laudantium quos, necessitatibus
+                    illo itaque labore dignissimos harum!</p>
+            </div>
+        </article>
+
+        <hr>
+
+        <article class="produtos2">
+
+            <div class="leftsection2" tabindex="0">
+                <img src="/assets/Separador direita.png" alt="" class="product-decoration">
+                <h2>ESQUINA MOCOTÓ</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis possimus recusandae praesentium eius
+                    odit
+                    commodi sapiente atque corrupti esse, porro eveniet fugit itaque dicta illum tenetur tempore nostrum
+                    quis laborum!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sequi culpa assumenda nam adipisci
+                    perspiciatis deleniti similique ex soluta quod, accusantium aperiam laudantium quos, necessitatibus
+                    illo
+                    itaque labore dignissimos harum!</p>
+            </div>
+            <div class="rightsection2" tabindex="0">
+                <img src="/assets/produtos/receita4.jpg" alt="produto 4">
+
+                <img src="/assets/Separador esquerda.png" alt="" class="product-decoration">
+            </div>
+        </article>
+
+        <article class="produtos3">
+            <div class="leftsection" tabindex="0">
+                <img src="/assets/produtos/receita4.jpg" alt="produto 4">
+
+                <img src="/assets/Separador direita.png" alt="" class="product-decoration">
+            </div>
+            <div class="rightsection" tabindex="0">
+                <img src="/assets/Separador esquerda.png" alt="" class="product-decoration">
+                <h2>TÊTE À TÊTE</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis possimus recusandae praesentium eius
+                    odit commodi sapiente atque corrupti esse, porro eveniet fugit itaque dicta illum tenetur tempore
+                    nostrum quis laborum!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sequi culpa assumenda nam adipisci
+                    perspiciatis deleniti similique ex soluta quod, accusantium aperiam laudantium quos, necessitatibus
+                    illo itaque labore dignissimos harum!</p>
+            </div>
+        </article>
+
+    </section>
+    <hr>
+
+
+
+    <footer>
+
+        <address id="address">
+            Informações de contato: <br>
+            <ul id="contato">
+                <li><a href="" aria-label="Whatsapp do Diego Burguers"> <img src="/assets/contato/wpp.png" alt="">Whatsapp(85 9XXXX-XXXX)</a></li>
+                <li><a href="" aria-label="instagram do Diego Burguers"> <img src="/assets/contato/instagram.png" alt="">Instagram(DighBurgers)</a></li>
+                <li><a href="" aria-label="twitter do Diego Burguers"> <img src="/assets/contato/twitter.png" alt="">Twitter(DighBurguersOficial)</a></li>
+            </ul>
+        </address>
+        <small>
+            © 2024 Todos os direitos reservados. Diego burgueria.
+            As marcas comerciais e logotipos exibidos neste site são propriedade de seus respectivos proprietários.
+            Fotografias de alimentos são apenas para fins ilustrativos. Política de Privacidade | Termos de Serviço
+        </small>
+    </footer>
+
+</body>
+
+</html>
